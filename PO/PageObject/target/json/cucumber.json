@@ -1,0 +1,63 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search on google",
+        "description": "",
+        "id": "run-a-simple-test;search-on-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125502889,
+              "error_message": "java.lang.NullPointerException\n\tat utilities.UtilityMethods.navigateToURL(UtilityMethods.java:23)\n\tat pageobjects.LoginPage.navigateToMainPage(LoginPage.java:22)\n\tat stepDef.LoginStepDefs.thatIAmOnTheGoogleHomePage(LoginStepDefs.java:58)\n\tat ✽.Given that I am on the google home page(LoginPage.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "that I am on the google home page",
+            "match": {
+              "location": "LoginStepDefs.thatIAmOnTheGoogleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter BPDTS in the search engine",
+            "match": {
+              "location": "LoginStepDefs.iEnterBPDTSInTheSearchEngine()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "results should show",
+            "match": {
+              "location": "LoginStepDefs.resultsShouldShow()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "run a simple test",
+    "description": "",
+    "id": "run-a-simple-test",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@allTests"
+      }
+    ]
+  }
+]
